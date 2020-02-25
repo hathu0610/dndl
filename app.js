@@ -27,7 +27,6 @@ app.get('/index', function (req, res) {
 });
 
 app.get('/about', function (req, res) {
-    console.log(req.originalUrl);
     res.sendFile(path.join(__dirname, '/views/', 'about.html'))
 });
 
