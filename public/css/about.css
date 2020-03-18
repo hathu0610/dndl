@@ -13,12 +13,24 @@
     top: 0px;
     z-index: 10;
 }
+<<<<<<< HEAD
 .container{
+=======
+/*.container{
+>>>>>>> upstream/master
     margin-top: 20%;
     width: 100%;
     height: auto;
     
+<<<<<<< HEAD
 }
+=======
+}*/
+.content{
+    margin-top: 15%;
+}
+
+>>>>>>> upstream/master
 h1{
     padding: 20px;
     vertical-align: middle;
@@ -38,11 +50,16 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> upstream/master
 }
 a{
     color: white;
 }
 .text-image{
+<<<<<<< HEAD
     padding: 20px;
     width: 217px;
     height: 372px;
@@ -50,10 +67,23 @@ a{
     margin: 20px;
     box-sizing: border-box;
     
+=======
+    
+    width: 217px;
+    height: 350px;
+    background: #90919B;
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.text{
+    padding: 20px;
+>>>>>>> upstream/master
 }
 .grey-box{
     background: #90919B;
     display: flex;
+<<<<<<< HEAD
     height: 325px;
     color: white;
 }
@@ -67,11 +97,32 @@ a{
 }
 .grey-box-content{
     flex: 50%;
+=======
+    /*height: 325px;*/
+    color: white;
+    flex-flow: wrap;
+}
+.grey-box-heading{
+    flex:1;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    
+}
+.grey-box-content{
+    flex:1;
+>>>>>>> upstream/master
     padding: 20px;
     justify-content: center;
 }
 .grey-box-content-2{
+<<<<<<< HEAD
     flex: 50%;
+=======
+    flex:1;
+>>>>>>> upstream/master
     padding: 20px;
     justify-content: center;
     font-size: 15px;
@@ -80,7 +131,10 @@ a{
     padding-left: 23%;
     padding-right: 23%;
     display: flex;
+<<<<<<< HEAD
     flex-direction: row;
+=======
+>>>>>>> upstream/master
     justify-content: space-around;
     flex-flow: wrap;
 }
@@ -100,18 +154,28 @@ a{
     box-sizing: border-box;
 }
 body{
+<<<<<<< HEAD
     background-color:;
+=======
+    background-color: white;
+>>>>>>> upstream/master
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
     font-weight: 500;
     padding: 0;
     margin: 0;
 }
+<<<<<<< HEAD
 img{            
+=======
+img{     
+    position: absolute;       
+>>>>>>> upstream/master
     display: block;
     width: 100%;
     height: auto;
     border-radius:5px;
+<<<<<<< HEAD
 }
 @media screen and (max-width: 600px;){
     .box{
@@ -120,4 +184,27 @@ img{
     .text-image{
         width: 40%;
     }
+=======
+    bottom: 0;
+}
+@media screen and (max-width: 600px){
+    
+    .text-image{
+        width: 40%;
+    }
+    .grey-box{
+        flex-direction: column;
+        min-width: 33.33%;
+        align-items: center;
+    }
+    .grey-box-heading{
+        padding: 10px;       
+    }
+    .grey-box-content-2{
+        font-size: 1.2rem;
+    }
+    .content{
+        margin-top: 30%;
+    }
+>>>>>>> upstream/master
 }
